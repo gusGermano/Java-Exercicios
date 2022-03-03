@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class salario2 {
+public class Salario2 {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class salario2 {
 		System.out.println("Digite o valor da hora-aula em minutos: ");
 		horaAula = in.nextFloat();
 
-		System.out.println("Digite o número de aulas dadas: ");
+		System.out.println("Digite o nÃºmero de aulas dadas: ");
 		numAulas = in.nextInt();
 
 		System.out.println("Digite o percentual de desconto do INSS");
@@ -20,6 +20,6 @@ public class salario2 {
 		salario = numAulas * horaAula;
 		salario = salario - (salario / 100 * desconto);
 
-		System.out.println("salario liquido é RS" + (salario) + "");
+		System.out.println("salario liquido Ã© RS" + (salario) + "");
 	}
 }
