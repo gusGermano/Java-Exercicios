@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class vetores {
+public class Vetores {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
@@ -12,12 +12,12 @@ public class vetores {
 		c = new int[3];
 
 		for (i = 0; i < 3; i++) {
-			System.out.println("Digite o " + (i + 1) + "° número:");
+			System.out.println("Digite o " + (i + 1) + "Â° nÃºmero:");
 			a[i] = in.nextInt();
 		}
 
 		for (i = 0; i < 3; i++) {
-			System.out.println("Digite o " + (i + 1) + "° número:");
+			System.out.println("Digite o " + (i + 1) + "Â° nÃºmero:");
 			b[i] = in.nextInt();
 		}
 		for (i = 0; i < 3; i++) {
