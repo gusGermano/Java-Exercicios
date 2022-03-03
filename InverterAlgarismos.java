@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class inverterAlgarismos {
+public class InverterAlgarismos {
 	public static void main(String[] args) {
 
 		int n, invertido = 0, resto;
 
 		Scanner in = new Scanner(System.in);
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nÃºmero:");
 
 		n = in.nextInt();
 
@@ -16,6 +16,6 @@ public class inverterAlgarismos {
 			n = n / 10;
 		}
 
-		System.out.println("\nNúmero invertido: " + invertido);
+		System.out.println("\nNÃºmero invertido: " + invertido);
 	}
 }
